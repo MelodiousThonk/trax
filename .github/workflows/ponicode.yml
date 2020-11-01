@@ -29,7 +29,7 @@ jobs:
     - name: Create Pull Request 
       uses: peter-evans/create-pull-request@v2 
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: e8052b31-7e9b-4fd1-ad80-9780209b3e79
         commit-message: '[ponicode-pull-request] Ponicode wrote new docstrings!'
         branch: ponicode-docstring
         title: '[Ponicode] Docstrings created'
